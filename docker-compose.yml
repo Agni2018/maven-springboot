@@ -3,5 +3,5 @@ services:
     build: .
     container_name: springmvc
     ports:
-      - "8080:8080"
+      - "8080:8089"
     restart: unless-stopped
