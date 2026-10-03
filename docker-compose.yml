@@ -1,0 +1,7 @@
+services:
+  springmvc:
+    build: .
+    container_name: springmvc
+    ports:
+      - "8080:8080"
+    restart: unless-stopped
